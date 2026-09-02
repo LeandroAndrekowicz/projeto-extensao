@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #87ceeb;
+}
+
+.game {
+    width: 1000px;
+    max-width: 95%;
+
+    padding: 30px;
+
+    background: #fff8dc;
+
+    border-radius: 20px;
+
+    border: 3px solid #6b4423;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.game-header h1 {
+    color: #3d6b35;
+}
+
+.status {
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+}
+
+.money {
+    padding: 10px 20px;
+
+    background: #ffd54f;
+    
+    border-radius: 10px;
+
+    border: 2px solid #c69b00;
+
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+#sellButton {
+    padding: 10px 15px;
+
+    background: #4caf50;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+
+    gap:30px;
+}
+
+.farm {
+    display: flex;
+
+    grid-template-columns: repeat(4, 90px);
+
+    gap: 10px;
+}
+
+.plot {
+    width: 90px;
+
+    height: 90px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #8b5a2b;
+
+    border: 3px solid #68401f;
+
+    border-radius: 10px;
+
+    font-size: 40px;
+
+    cursor: pointer;
+}
