@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini fazenda</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="game">
+        <header class="game-header">
+            <div>
+                <h1>🌻 Mini Fazenda</h1>
+                <p>Plante, colha e aumente sua fazenda!</p>
+            </div>
+
+            <div class="money">
+                💰 <span id="money"></span>
+            </div>
+
+            <button id="sellButton">
+                🛒 Vender tudo
+            </button>
+        </header>
+
+        <section class="content">
+            <div>
+                <h2>Minha Fazenda</h2>
+                <div class="farm" id="farm"></div>
+            </div>
+            <aside class="shop">
+                <h2>Loja</h2>
+                
+                <button class="seed selected" data-seed="carrot">
+                    <span>🥕</span>
+                    
+                    <div>
+                        <stron>
+                            Cenoura
+                        </stron>
+                        <small>
+                            🌱 Semente: 5 moedas
+                        </small>
+                        <small>
+                            💰 Venda: 8 moedas
+                        </small>
+                    </div>
+                </button>
+                
+                <button class="seed selected" data-seed="corn">
+                    <span>🌽</span>
+                    
+                    <div>
+                        <stron>
+                            Milho
+                        </stron>
+                        <small>
+                            🌱 Semente: 10 moedas
+                        </small>
+                        <small>
+                            💰 Venda: 13 moedas
+                        </small>
+                    </div>
+                </button>
+                
+                <button class="seed selected" data-seed="tomato">
+                    <span>🍅</span>
+                    
+                    <div>
+                        <stron>
+                            Tomate
+                        </stron>
+                        <small>
+                            🌱 Semente: 15 moedas
+                        </small>
+                        <small>
+                            💰 Venda: 18 moedas
+                        </small>
+                    </div>
+                </button>
+            </aside>
+        </section>
+
+        <p class="message" id="message">
+            Selecione uma semente e clique em um terreno
+        </p>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>
